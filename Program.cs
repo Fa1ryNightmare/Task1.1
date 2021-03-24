@@ -14,6 +14,8 @@ namespace Task1_1
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Корень {n} степени из {x} равен:\t{Sqrt(x, n)}");
             Console.WriteLine($"Результат метода Math.Pow:\t{Math.Pow(x, 1 / n)}");
+
+            Console.ReadKey();
         }
 
         static double Sqrt(double x, double n)
